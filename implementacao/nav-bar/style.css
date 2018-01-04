@@ -1,6 +1,11 @@
+.main {
+	position: fixed;
+}
+
 .background {
 	width: 100%;
 	background-color: #fff;
+	height: 1000px;
 
 }
 

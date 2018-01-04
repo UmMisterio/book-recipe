@@ -1,0 +1,126 @@
+.background{
+	background-color: white;
+}
+
+.button {
+ 	width: 60px;
+ 	height: 30px;
+ 	background-color: white;
+ 	border: 0.125em solid;
+ 	border-color: #3498db;
+ 	border-radius: 0px 0px 0px 0px;
+ 	position: relative;
+ 	color: #3498db;
+ 	cursor: pointer;
+ 	margin-top: 1.75em;
+ 	margin-left: 65.75em;
+ }
+
+.button:hover {
+ 	border: solid;
+ 	color: white;
+ 	border-color: #3498db;
+ 	background-color: #3498db;
+ 	transition: 0.5s;
+ }
+
+ .hover {
+
+ }
+
+ .control {
+ 	max-width: 9.375em;
+ 	position: absolute;
+ 	margin-top: 1.25em;
+ 	margin-left: 1.25em;
+ }
+
+ .nao-tem-conta {
+ 	color: #3498db;
+ 	text-decoration: none;
+  	position: absolute;
+ 	margin-top: 1.75em;
+ 	margin-left: 46.75em;
+
+ }
+
+ .email {
+ 	color: #3498db;
+ 	border: none;
+ 	position: absolute;
+ 	margin-top: 2.5em;
+ 	margin-left: 33em;
+
+ }
+
+ .submit {
+ 	width: 12.5em;
+ 	height: 3.125em;
+ 	background-color: #3498db;
+ 	border: 0.125em solid;
+ 	border-color: #3498db;
+ 	border-radius: 0px 0px 0px 0px;
+ 	position: relative;
+ 	color: white;
+ 	cursor: pointer;
+ 	margin-top: 20em;
+ 	margin-left: 31.5em;
+ }
+
+.submit:hover {
+ 	border: 2px solid;
+ 	color: #3498db;
+ 	border-color: #3498db;
+ 	background-color: #fff;
+ 	transition: 0.5s;
+ }
+
+ .ajuda {
+ 	max-width: 3.125em;
+ 	max-height: 3.125em;
+ }
+
+.logo {
+	position: absolute;
+	margin-top: 10.75em;
+	margin-left: -38em;
+}
+
+.text_email {
+	position: absolute;
+	margin-top: 0.5em;
+	margin-left: 27.5em;
+}
+
+.firts {
+	position: relative;
+	margin-top: 13em;
+}
+
+.text_senha {
+	position: absolute;
+	margin-top: 5em;
+	margin-left: 27.5em;
+}
+
+.senha {
+	position: absolute;
+	margin-top: 8em;
+	margin-left: 33em;
+	border: none;
+	color: #3498db
+}
+
+/* Universal Style */
+
+ p {
+ 	color: #3498db;
+ }
+
+ hr {
+ 	background-color: #3498db;
+ 	background: #3498db;
+ 	color: #3498db;
+ 	border-color: #3498db;
+ 	max-width: 25em;
+ }

@@ -1,0 +1,33 @@
+.background {
+
+}
+
+.bar {
+	height: 200px;
+	width: 100%;
+	background-color: #161616;
+	position: absolute;
+	margin-top: 448px;
+	margin-left: -8px;
+}
+
+.top-bar {
+	height: 20px; 
+	width: 100%;
+	background-color: #ff6a28;
+	position: absolute;
+	margin-top: 428px;
+	margin-left: -8px;
+}
+
+.effect {
+	height: 50px;
+	width: 150px;
+	background: #ff6a28;
+	position: absolute;
+	margin-left: 42%;
+	margin-top: 392px;
+	border: 2px solid;
+	border-color: #ff6a28;
+	border-radius: 20px;
+}
