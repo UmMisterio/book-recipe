@@ -9,7 +9,7 @@
 </head>
 
 <body class="background">
-
+	<ul id="usersList"></ul>
 	<!-- Header -->
 
 	<a href="#" class="hover"><img src="image/back-login_hover.png" class="control"></a>
@@ -28,19 +28,22 @@
 
 	<p class="text_email">Email</p>
 
-	<input type="text" name="Email" placeholder="exemplo@gmail.com" class="email" autofocus>
+	<input type="text" name="Email" id="emailInput" placeholder="exemplo@gmail.com" class="email" autofocus>
 
 	<hr>
 
 	<p class="text_senha">Senha</p>
 
-	<input type="password" name="senha" placeholder="********" class="senha">
+	<input type="password" name="senha" id="passwordInput" placeholder="********" class="senha">
 
-	<button class="submit">Login</button>
+	<button class="submit" id="valid-user">Login</button>
 
 	<!-- <img src="image/ajuda.png" class="ajuda"> -->
 
 	<hr>
 
 	<script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="../core/app.firebase.js"></script>
+    <script src="../core/real-time-database.js"></script>
 </body>

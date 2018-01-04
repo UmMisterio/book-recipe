@@ -7,12 +7,27 @@ button.addEventListener('click', function (){
 
 $("#send").on('click', function () {
     create(
-        document.getElementById("nameInput").value, 
+        document.getElementById("nameInput").value,
         document.getElementById("passwordInput").value
     );
 });
 
-function create(name, password){
+$("#valid-user").on('click', function () {
+    var valid = false;
+
+    firebase.database().ref('users').once('value').then(function (snapshot) {
+        snapshot.forEach(function (item) {
+            if (item.val().name == document.getElementById("emailInput").value) {
+                if (item.val().password == document.getElementById("passwordInput").value) {
+                    alert("OK valid");
+                }       
+            }
+        });
+    });
+});
+
+    
+function create(name, password) {
     var data = {
         name: name,
         password: password
@@ -22,7 +37,7 @@ function create(name, password){
 }
 
 
-firebase.database().ref('users').on('value', function (snapshot){
+firebase.database().ref('users').on('value', function (snapshot) {
     usersList.innerHTML = '';
     snapshot.forEach(function (item) {
         var li = document.createElement('li');
