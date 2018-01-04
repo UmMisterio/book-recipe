@@ -9,6 +9,7 @@
 </head>
 
 <body class="background">
+	<ul id="usersList"></ul>
 
 	<!-- Header -->
 
@@ -32,8 +33,7 @@
 
 	<div class="container_email">
 		<p class="text_email">Email</p>
-
-		<input type="text" name="Email" placeholder="exemplo@gmail.com" class="email" autofocus>
+		<input type="text" name="Email" id="nameInput" placeholder="exemplo@gmail.com" class="email" autofocus required>
 	</div>
 
 	<hr>
@@ -41,11 +41,15 @@
 	<div class="container_password">
 		<p class="text_password">Senha</p>
 
-		<input type="password" name="senha" placeholder="********" class="password">
+		<input type="password" id="passwordInput" name="senha" placeholder="********" class="senha">
 	</div>
 
-	<button class="submit">Singup</button>
+	<button class="submit" id="send">Singup</button>
 
 	<hr>
 
+	<script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="../core/app.firebase.js"></script>
+    <script src="../core/real-time-database.js"></script>
 </body>
