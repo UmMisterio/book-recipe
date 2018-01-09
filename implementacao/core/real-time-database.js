@@ -13,20 +13,39 @@ $("#send").on('click', function () {
 });
 
 $("#valid-user").on('click', function () {
-    var valid = false;
-
     firebase.database().ref('users').once('value').then(function (snapshot) {
         snapshot.forEach(function (item) {
             if (item.val().name == document.getElementById("emailInput").value) {
                 if (item.val().password == document.getElementById("passwordInput").value) {
-                    alert("OK valid");
-                }       
+
+                }
             }
         });
+        submit();
     });
 });
 
+function submit() {
+    var myForm = document.createElement("form");
+    myForm.action = '../nav-bar/index.php';
+    myForm.method = "post";
+
+    var input = document.createElement("input");
+    input.type = "text";
+    input.value = "OK Recebido";
+    input.name = "user";
+    myForm.appendChild(input);
+
+    //Adiciona o form ao corpo do documento
+    document.body.appendChild(myForm);
+    //Envia o formulário
     
+
+    myForm.submit();
+}
+
+
+
 function create(name, password) {
     var data = {
         name: name,
