@@ -1,0 +1,157 @@
+/* Indiferente */
+
+.background{
+	background-color: white;
+}
+
+/* Header */
+
+.control {
+ 	max-width: 9.375em;
+ 	position: absolute;
+ 	margin-top: 1.25em;
+ 	margin-left: 1.25em;
+ }
+
+.not_a_member {
+ 	color: #3498db;
+ 	text-decoration: none;
+  	position: absolute;
+ 	margin-top: 1.75em;
+ 	margin-left: 46.75em;
+
+ }
+
+.button {
+ 	width: 60px;
+ 	height: 30px;
+ 	background-color: white;
+ 	border: 0.125em solid;
+ 	border-color: #3498db;
+ 	border-radius: 0px 0px 0px 0px;
+ 	position: relative;
+ 	color: #3498db;
+ 	cursor: pointer;
+ 	margin-top: 1.75em;
+ 	margin-left: 65.75em;
+ }
+
+.button:hover {
+ 	border: solid;
+ 	color: white;
+ 	border-color: #3498db;
+ 	background-color: #3498db;
+ 	transition: 0.5s;
+ }
+
+.hover {
+
+ }
+
+/* Sing Up */
+
+/* Text */
+
+ .text_name {
+ 	position: absolute;
+	margin-top: 0.5em;
+	margin-left: 27.5em;
+ }
+ 
+ .text_email {
+	position: absolute;
+	margin-top: 5em;
+	margin-left: 27.5em;
+}
+
+ .text_password {
+	position: absolute;
+	margin-top: 9.5em;
+	margin-left: 27.5em;
+}
+ 
+/* Body */
+
+ .logo {
+	position: absolute;
+	margin-top: 10.75em;
+	margin-left: -38em;
+}
+
+ .firts {
+	position: relative;
+	margin-top: 13em;
+}
+
+ .submit {
+ 	width: 12.5em;
+ 	height: 3.125em;
+ 	background-color: #3498db;
+ 	border: 0.125em solid;
+ 	border-color: #3498db;
+ 	border-radius: 0px 0px 0px 0px;
+ 	position: relative;
+ 	color: white;
+ 	cursor: pointer;
+ 	margin-top: 20em;
+ 	margin-left: 31.5em;
+ }
+
+.submit:hover {
+ 	border: 2px solid;
+ 	color: #3498db;
+ 	border-color: #3498db;
+ 	background-color: #fff;
+ 	transition: 0.5s;
+ }
+
+/* Input */
+
+.name {
+ 	color: #3498db;
+ 	border: none;
+ 	position: absolute;
+ 	margin-top: 2.5em;
+ 	margin-left: 33em;
+}
+
+.password {
+	position: absolute;
+	margin-top: 13.5em;
+	margin-left: 33em;
+	border: none;
+	color: #3498db
+}
+
+ .email {
+ 	color: #3498db;
+ 	border: none;
+ 	position: absolute;
+ 	margin-top: 8em;
+ 	margin-left: 33em;
+
+ }
+
+/* Universal Style */
+
+ p {
+ 	color: #3498db;
+ }
+
+ hr {
+ 	background-color: #3498db;
+ 	background: #3498db;
+ 	color: #3498db;
+ 	border-color: #3498db;
+ 	max-width: 25em;
+ }
+
+ /* Container */
+
+ .container_email {
+ 	position: absolute;
+ }
+
+ .container_password {
+ 	position: absolute;
+ }
